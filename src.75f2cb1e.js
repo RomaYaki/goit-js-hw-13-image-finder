@@ -21,4 +21,4 @@ module.exports=function(t){return fetch(t).then(function(t){return t.text()})};
 },{}],0:[function(require,module,exports) {
 var b=require("TUK3");b.register("html",require("A3BY"));b.load([["index.html","s8zH"]]).then(function(){require("Focm");});
 },{}]},{},[0], null)
-//# sourceMappingURL=/parcel-project-template/src.75f2cb1e.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.75f2cb1e.js.map
