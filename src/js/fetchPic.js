@@ -31,13 +31,10 @@ function onLoad(){
     picAPI.fetch().then(pictures => {
         refs.markupGallery.insertAdjacentHTML('beforeend', markup(pictures));
         const element = document.querySelector(`.page-${pictures.page}`);
-        element.scrollIntoView({
+        setTimeout(t =>  {element.scrollIntoView({
             behavior: 'smooth',
-            block: 'end',
-        });
-
-
-
+            block: 'start',
+        })}, 200) 
     });    
 }
 
